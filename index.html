@@ -1,54 +1,77 @@
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boolando</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boolando</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
+  <header>
+    <div class="top-bar">
+      <div class="nav-links">
+        <a href="#">Donna</a>
+        <a href="#">Uomo</a>
+        <a href="#">Bambini</a>
+      </div>
+      <div class="logo">boolando</div>
+      <div class="icons">
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
+      </div>
+    </div>
+  </header>
 
-   
-    <header id="boolando_header">
-        <div class="logo">
-            inserire immagine logo
+  <main class="container">
+    <div class="row">
+
+      <!-- CARD START -->
+      <div class="col-4">
+        <div class="card">
+          <div class="img-container">
+            <img src="headphones.jpg" alt="Prodotto">
+            <div class="badges">
+              <span class="discount">-50%</span>
+              <span class="green">Sostenibilità</span>
+            </div>
+            <div class="bookmark">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="brand">Levi's</div>
+            <div class="name">RELAXED FIT TEE UNISEX</div>
+            <div class="price">
+              <span class="new">14,99€</span>
+              <span class="old">29,99€</span>
+            </div>
+          </div>
         </div>
-            <nav class="menu">
-              inserire menu
-            </nav>
-    </header>
-    
-    <main id="boolando-main">
-        
-        <section>
+      </div>
+      <!-- CARD END -->
 
-            <div class="container">
-             <div class="row">
-              <div class="col-4">
-               <div class="card">
-                  immagine prodotto
-               </div>
-            </div>
-            
-            <div class="container">
-             <div class="row">
-              <div class="col-4">
-               <div class="card">
-                 immagine prodotto
-               </div>
-             </div>
+      <!-- Copia la card sopra altre due volte per completare la riga -->
+      <!-- ... -->
 
-            <div class="container">
-             <div class="row">
-              <div class="col-4">
-               <div class="card">
-                 immagine prodotto
-               </div>
-            </div>
+    </div>
+  </main>
 
-        </section>
-            
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <strong>Boolando s.r.l</strong><br>
+        Informazioni legali Informativa sulla privacy Diritto di recesso
+      </div>
+      <div class="footer-right">
+        Trovaci anche su
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
