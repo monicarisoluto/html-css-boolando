@@ -11,4 +11,15 @@
 
   .header_container {
     background-color: #ff8929;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
   }
+  .logo {
+    max-height: 40px;
+    height: auto;
+    width: auto;
+    display: block;
+}
