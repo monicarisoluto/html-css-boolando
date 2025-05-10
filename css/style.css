@@ -1,2 +1,14 @@
 
-  
+* {
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  .debug {
+    border: 1px dashed red;
+    margin: 0;
+  }
+
+  .header_container {
+    background-color: #ff8929;
+  }
