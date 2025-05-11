@@ -1,13 +1,11 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
   }
 
-  .debug {
-    border: 1px dashed red;
-    margin: 0;
-  }
+
 
   .header_container {
     background-color: #ff8929;
@@ -23,3 +21,34 @@
     width: auto;
     display: block;
 }
+
+.main_container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+  }
+  
+  .col {
+    width: calc((100% - 40px) / 3); 
+    background-color: lightblue;
+    padding: 10px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  
+   
